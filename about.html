@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About GianBoDev</title>
+    <link rel="shortcut icon" href="./img/log_llama_sf.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400..700&family=Freeman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poetsen+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="page-header">
+        <nav class="page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation"><a href="index.html" role="menuitem" aria-label="home">Home</a></li>
+                <li role="presentation"><a href="about.html" role="menuitem" aria-label="about-me">About</a></li>
+                <li role="presentation"><a href="work.html" role="menuitem" aria-label="contact">Work</a></li>
+                <li role="presentation"><a href="contact.html" role="menuitem" aria-label="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="about">
+        <img src="./img/photo_5425009055010778095_y.jpg" class="about__portrait-element--image" alt="Image of Giancarlo Boas">
+        <div class="about__text-all-elements main">
+            
+            <button class="toggle-button" onclick="toggleContent('about')">About Me</button>
+            <div id="about" class="content">
+                <p>My name is Giancarlo Boas, I am a Full-Stack web developer. I come from Peru but right now I am living in Germany.</p>
+            </div>
+
+            <button class="toggle-button" onclick="toggleContent('work')">Work Experience</button>
+            <div id="work" class="content">
+                <ul>
+                    <li>Hero Ambassador for Canyon Bicycles - Global Contact</li>
+                    <li>Supplementary staff as a caring assistant - SKM Osnabruck</li>
+                    <li>Customer Support Representative for Playstation - SYKES EMEA</li>
+                    <li>Freelance Spanish Teacher</li>
+                    <li>Teacher Assistant - Schulenheit Primarschule Eichbüel</li>
+                    <li>Project Manager & General Coordinator - Kiya Perú Positive Action</li>
+                    <li>Customer Protection & Experience Specialist - Banco de Crédito BCP</li>
+                </ul>
+            </div>
+
+            <button class="toggle-button" onclick="toggleContent('socials')">My Socials</button>
+            <div id="socials" class="content">
+                <ul>
+                    <li>Slack</li>
+                    <li>LinkedIn</li>
+                    <li>X</li>
+                    <li>Github</li>
+                    <li>GianBoDev@gmail.com</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

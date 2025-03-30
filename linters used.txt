@@ -1,0 +1,6 @@
+HTMLHint - no data changed 
+
+stylelint-plus - Example configuration site info added (https://gist.github.com/mydea/8a5c49b2a13320871ab29eb88a0e7d37) 
+
+
+W3C Validation - no data changed
