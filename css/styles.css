@@ -43,6 +43,7 @@
   display: flex;
   flex-direction:row;
   margin-top: 100px;
+  margin-left: 20px;
 }
 
 .content__about{
@@ -65,6 +66,7 @@
   margin-left: 95px;
   margin-bottom: 20px ;
   margin-top: 20px;
+  margin-right: 100px;
 }
 
 #work{
@@ -77,9 +79,18 @@
 #socials{
   display:flex;
   justify-content: center;
-  /* align-items: center; */
   flex-direction: column;
   font-size: 25px;
+  
+}
+
+#socials ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas, puedes ajustar */
+  gap: 30px; 
+  padding: 0;
+  list-style: none;
+  justify-items: center;
 }
 
 .about__portrait-element--image {
@@ -95,11 +106,13 @@
   background: #fda085;
   border: 3px solid #b0853b;
   padding: 10px 15px;
-  font-size: 30px;
+  font-size: 25px;
   color: #5a3e2b;
   border-radius: 12px;
   box-shadow: 4px 4px 0px #b0853b;
   }
+
+
 
 /* work.css */
 
