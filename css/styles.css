@@ -21,6 +21,7 @@
   align-items:center ;
   flex-direction:row-reverse;
   margin-top: 100px;
+  justify-content: center;
 }
 
 .profile__portrait-element--image {
@@ -31,17 +32,18 @@
 }
 
 .profile__text-element {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 /* about.css */
 
 .about {
   max-width:1500px;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   align-items:center ;
   flex-direction:row;
+  margin-top: 100px;
 }
 
 .about__portrait-element--image {
@@ -49,7 +51,7 @@
   width: 300px;
   align-content: center;
   justify-content: left;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .toggle-button {
@@ -206,14 +208,14 @@ button:focus,
 .navigation-list {
   list-style-type: none;
   display: flex;
-  justify-content:center;
+  justify-content: end;
   margin-right: 20px;
-  font-size: 20px;
 }
 
 .navigation-list li {
   display: inline;
   margin-left: 20px;
+  font-size: 20px;
 }
 
 .work-title {
