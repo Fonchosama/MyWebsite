@@ -61,15 +61,6 @@
   margin-left: 30px;
 }
 
-.about__text-element {
-  font-size: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .toggle-button {
   background: linear-gradient(135deg, #f6d365, #fda085);
   border: 3px solid #b0853b;
@@ -81,6 +72,22 @@
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
+
+.content {
+  display: none; /* Oculta los elementos */
+}
+
+.about__text-element {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
 
 /* contact.css */
 
