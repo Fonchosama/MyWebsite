@@ -29,37 +29,39 @@
 
     <main class="about">
         <img src="./img/photo_5425009055010778095_y.jpg" class="about__portrait-element--image" alt="Image of Giancarlo Boas">
+        
         <div class="about__text-all-elements main">
-            
-            <button class="toggle-button" onclick="toggleContent('about')">About Me</button>
-            <div id="about" class="content">
+
+            <div id="about" class="content__about">
+                <button class="toggle-button" onclick="toggleContent('about')">About Me</button>
                 <p>My name is Giancarlo Boas, I am a Full-Stack web developer. I come from Peru but right now I am living in Germany.</p>
-            </div>
+           </div>
 
-            <button class="toggle-button" onclick="toggleContent('work')">Work Experience</button>
-            <div id="work" class="content">
-                <ul>
-                    <li>Hero Ambassador for Canyon Bicycles - Global Contact</li>
-                    <li>Supplementary staff as a caring assistant - SKM Osnabruck</li>
-                    <li>Customer Support Representative for Playstation - SYKES EMEA</li>
-                    <li>Freelance Spanish Teacher</li>
-                    <li>Teacher Assistant - Schulenheit Primarschule Eichbüel</li>
-                    <li>Project Manager & General Coordinator - Kiya Perú Positive Action</li>
-                    <li>Customer Protection & Experience Specialist - Banco de Crédito BCP</li>
-                </ul>
-            </div>
+           <div class="content__work-socials">
+                <div id="work" class="content">
+                    <button class="toggle-button" onclick="toggleContent('work')">Work Experience</button>
+                    <ul>
+                        <li>Hero Ambassador for Canyon Bicycles - Global Contact</li>
+                        <li>Supplementary staff as a caring assistant - SKM Osnabruck</li>
+                        <li>Customer Support Representative for Playstation - SYKES EMEA</li>
+                        <li>Freelance Spanish Teacher</li>
+                        <li>Teacher Assistant - Schulenheit Primarschule Eichbüel</li>
+                        <li>Project Manager & General Coordinator - Kiya Perú Positive Action</li>
+                        <li>Customer Protection & Experience Specialist - Banco de Crédito BCP</li>
+                    </ul>
+                </div>
 
-            <button class="toggle-button" onclick="toggleContent('socials')">My Socials</button>
-            <div id="socials" class="content">
-                <ul>
-                    <li>Slack</li>
-                    <li>LinkedIn</li>
-                    <li>X</li>
-                    <li>Github</li>
-                    <li>GianBoDev@gmail.com</li>
-                </ul>
+                <div id="socials" class="content">
+                <button class="toggle-button" onclick="toggleContent('socials')">My Socials</button>
+                    <ul>
+                        <li>Slack</li>
+                        <li>LinkedIn</li>
+                        <li>X</li>
+                        <li>Github</li>
+                        <li>GianBoDev@gmail.com</li>
+                    </ul>
+                </div>
             </div>
-
         </div>
     </main>
 

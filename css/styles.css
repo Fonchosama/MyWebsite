@@ -38,20 +38,53 @@
 /* about.css */
 
 .about {
-  max-width:1500px;
+  max-width:1800px;
   margin: auto;
   display: flex;
-  align-items:center ;
+
   flex-direction:row;
   margin-top: 100px;
 }
 
+.content__about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-bottom: 200px ;
+}
+
+.content__work-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 200px;
+  margin-bottom: 20px ;
+  margin-top: 20px;
+}
+
+#work{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#socials{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .about__portrait-element--image {
   border-radius: 50%;
-  width: 300px;
+  width: 350px;
   align-content: center;
   justify-content: left;
-  margin-left: 0px;
+  margin-left: 50px;
 }
 
 .toggle-button {
@@ -63,12 +96,7 @@
   border-radius: 12px;
   box-shadow: 4px 4px 0px #b0853b;
   transition: all 0.2s ease-in-out;
-  cursor: pointer;
-}
-
-.content {
-  display: none; /* Oculta los elementos */
-}
+ }
 
 .about__text-element {
   font-size: 20px;
