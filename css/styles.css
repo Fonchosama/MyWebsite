@@ -86,10 +86,9 @@
 
 #socials ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas, puedes ajustar */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 30px; 
-  padding: 0;
-  list-style: none;
+    list-style: none;
   justify-items: center;
 }
 
