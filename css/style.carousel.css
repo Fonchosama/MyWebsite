@@ -1,15 +1,14 @@
 
  
 .carousel {
-    position: relative;
-    width: 50%;
-    max-width: 900px;
-    max-height: 500px;
+    width: 900%;
+    max-width: 1000px;
+    max-height: 1000px;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #fff;
-    padding: 20px;
+
     background: #fda085;
     border: 3px solid #b0853b;
     padding: 10px 15px;
@@ -17,6 +16,7 @@
     color: #5a3e2b;
     border-radius: 12px;
     box-shadow: 4px 4px 0px #b0853b;
+    margin-top: 100px;
 }
 
 .carousel__track-container {
