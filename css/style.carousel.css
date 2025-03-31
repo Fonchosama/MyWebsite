@@ -10,6 +10,13 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #fff;
     padding: 20px;
+    background: #fda085;
+    border: 3px solid #b0853b;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #5a3e2b;
+    border-radius: 12px;
+    box-shadow: 4px 4px 0px #b0853b;
 }
 
 .carousel__track-container {
@@ -20,6 +27,8 @@
 .carousel__track {
     display: flex;
     transition: transform 0.4s ease-in-out;
+    list-style-type: none;
+    padding-left: 0; 
 }
 
 .carousel__slide {
