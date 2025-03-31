@@ -70,6 +70,18 @@
   align-items: center;
 }
 
+.toggle-button {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  border: 3px solid #b0853b;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #5a3e2b;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px #b0853b;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
 /* contact.css */
 
 .contact-me {
