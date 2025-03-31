@@ -62,7 +62,7 @@
 }
 
 .toggle-button {
-  background: linear-gradient(135deg, #f6d365, #fda085);
+  background: #fda085;
   border: 3px solid #b0853b;
   padding: 15px 30px;
   font-size: 18px;
@@ -85,9 +85,6 @@
   flex-direction: column;
   align-items: center;
 }
-
-
-
 
 /* contact.css */
 
@@ -121,17 +118,18 @@
 
 .profile {
   max-width:1000px;
-  margin: 0 auto;
+  margin:  auto;
   display: flex;
   align-items:center ;
   flex-direction:row-reverse;
+  margin-top: 100px;
 }
 
 .profile__portrait-element--image {
   border-radius: 50%;
-  width: 300px;
+  width: 350px;
   align-content: center;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .profile__text-element {
