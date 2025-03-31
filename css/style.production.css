@@ -1,4 +1,4 @@
-/*
+/* /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
 * Autoprefixer: v10.4.7
@@ -514,7 +514,4 @@ button:focus,
     grid-row: auto / auto;
   }
 
-  h1 {
-    font-size: 25px;
-  }
-}
+} */

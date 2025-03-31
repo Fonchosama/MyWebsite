@@ -16,72 +16,82 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400..700&family=Freeman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poetsen+One&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 
-<body class="main-body">
+<header class="page-header">
+    <nav class="page-header__item" :last-child>
+        <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+                <a href="index.html" role="menuitem" aria-label="home">Home</a>
+            </li>
+            <li role="presentation">
+                <a href="about.html" role="menuitem" aria-label="about-me">About</a>
+            </li>
+            <li role="presentation">
+                <a href="work.html" role="menuitem" aria-label="contact">Work</a>
+            </li>
+            <li role="presentation">
+                <a href="contact.html" role="menuitem" aria-label="contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
-    <header class="page-header">
-        <nav class="page-header__item" :last-child>
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="index.html" role="menuitem" aria-label="home">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="about.html" role="menuitem" aria-label="about-me">About</a>
-                </li>
-                <li role="presentation">
-                    <a href="work.html" role="menuitem" aria-label="contact">Work</a>
-                </li>
-                <li role="presentation">
-                    <a href="contact.html" role="menuitem" aria-label="contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="section">
-        <h1 class="work-title">Work</h1>
-        <div class="grid">
-            <div class="grid__item">
-                <h2>Non profit Organization website</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    consequuntur magnam! A repudiandae eveniet magnam maxime dolor.</p>
-                <a href="#">Check the Project</a>
-            </div>
-            <div class="grid__item">
-                <img src="./img/ChatGPT Image 30 mar 2025, 10_14_56 p.m..png" height="300, border-radius: 50%>
+<body class="page">
+    <section class="work">
+        <div class="work__div">
+            <h1 class="work__div--title">My Works</h1>
+            <img src="./img/ChatGPT Image 30 mar 2025, 10_14_56 p.m..png" class="work__div--image">
+            <p class="work__div--description">
+                It's amazing how much inspiration and creativity can come from a small cozy place ... this is mine &lt;3
+            </p>
+         </div>
 
+        <div class="work__grid">
+            <div class="work__item">
+                <img src="./img/ChatGPT Image 30 mar 2025, 10_14_56 p.m..png" height="300" class="work__item-image">
+                <h2 class="work__item-title">Non-profit Organization Website</h2>
+                <p class="work__item-description">Lorem ipsum dolor sit, amet consectetur...</p>
+                <a href="#" class="work__item-link">Check the Project</a>
             </div>
-            <div class="grid__item">
-                <h2>Educational Project website</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    consequuntur magnam! A repudiandae eveniet magnam maxime dolor.</p>
-                <a href="#">Check the Project</a>
+
+            <div class="work__item">
+                <img src="./img/ChatGPT Image 30 mar 2025, 10_14_56 p.m..png" height="300" class="work__item-image">
             </div>
-            <div class="grid__item">
-                <h2>Financial Education Website</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    consequuntur magnam! A repudiandae eveniet magnam maxime dolor.</p>
-                <a href="#">Check the Project</a>
+
+            <div class="work__item">
+                <img src="./img/ChatGPT Image 30 mar 2025, 10_14_56 p.m..png" height="300" class="work__item-image">
+                <h2 class="work__item-title">Educational Project Website</h2>
+                <p class="work__item-description">Lorem ipsum dolor sit, amet consectetur...</p>
+                <a href="#" class="work__item-link">Check the Project</a>
             </div>
-            <div class="grid__item">
-                <h2>Communal Services web app</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    consequuntur magnam! A repudiandae eveniet magnam maxime dolor.</p>
-                <a href="#">Check the Project</a>
+
+            <div class="work__item">
+                <img src="./img/ChatGPT Image 30 mar 2025, 10_14_56 p.m..png" height="300" class="work__item-image">
+                <h2 class="work__item-title">Financial Education Website</h2>
+                <p class="work__item-description">Lorem ipsum dolor sit, amet consectetur...</p>
+                <a href="#" class="work__item-link">Check the Project</a>
             </div>
-            <div class="grid__item">
-                <h2>Fundraising Project website</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    consequuntur magnam! A repudiandae eveniet magnam maxime dolor.</p>
-                <a href="#">Check the Project</a>
+
+            <div class="work__item">
+                <img src="./img/ChatGPT Image 30 mar 2025, 10_14_56 p.m..png" height="300" class="work__item-image">
+                <h2 class="work__item-title">Communal Services Web App</h2>
+                <p class="work__item-description">Lorem ipsum dolor sit, amet consectetur...</p>
+                <a href="#" class="work__item-link">Check the Project</a>
+            </div>
+
+            <div class="work__item">
+                <img src="./img/ChatGPT Image 30 mar 2025, 10_14_56 p.m..png" height="300" class="work__item-image">
+                <h2 class="work__item-title">Fundraising Project Website</h2>
+                <p class="work__item-description">Lorem ipsum dolor sit, amet consectetur...</p>
+                <a href="#" class="work__item-link">Check the Project</a>
             </div>
         </div>
     </section>
 
 </body>
  
-<script src="js/tota11y.min.js"></script>
 </html>
