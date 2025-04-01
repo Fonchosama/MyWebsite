@@ -134,6 +134,7 @@
 .work__div {
   display:flex;
   flex-direction: column;
+  margin-right: 40px;
  }
 
 .work__div--title {
