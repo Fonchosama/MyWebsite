@@ -232,8 +232,8 @@
         .carousel-container {
             position: relative;
             overflow: hidden;
-            margin-left: 20px;
-            margin-right: 20px;
+            margin-left: 40px;
+            margin-right: 40px;
         }
     
         .carousel {
