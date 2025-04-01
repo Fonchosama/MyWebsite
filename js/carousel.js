@@ -1,35 +1,39 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
     const track = document.querySelector(".carousel__track");
     const slides = Array.from(track.children);
-    const nextButton = document.querySelector(".carousel__button--right");
     const prevButton = document.querySelector(".carousel__button--left");
-    const slideWidth = slides[0].getBoundingClientRect().width;
+    const nextButton = document.querySelector(".carousel__button--right");
+
     let currentIndex = 0;
-    const slidesToShow = 3;
 
-    // Arrange slides next to each other
-    slides.forEach((slide, index) => {
-        slide.style.left = `${index * slideWidth}px`;
-    });
+    function updateSlidePosition() {
+        const slideWidth = slides[0].offsetWidth; // Obtiene el ancho real del slide
+        track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    }
 
-    const moveSlides = (index) => {
-        track.style.transform = `translateX(-${index * slideWidth}px)`;
-        currentIndex = index;
-    };
-
-    nextButton.addEventListener("click", () => {
-        if (currentIndex < slides.length - slidesToShow) {
-            moveSlides(currentIndex + 1);
+    nextButton.addEventListener("click", function () {
+        if (currentIndex < slides.length - 1) {
+            currentIndex++;
         } else {
-            moveSlides(0); // Reset to beginning
+            currentIndex = 0; // Vuelve al inicio si es el último
         }
+        updateSlidePosition();
     });
 
-    prevButton.addEventListener("click", () => {
+    prevButton.addEventListener("click", function () {
         if (currentIndex > 0) {
-            moveSlides(currentIndex - 1);
+            currentIndex--;
         } else {
-            moveSlides(slides.length - slidesToShow); // Move to last set
+            currentIndex = slides.length - 1; // Va al final si está en el primero
         }
+        updateSlidePosition();
     });
+
+    // Asegurarse de que el tamaño se ajuste cuando cambia la ventana
+    window.addEventListener("resize", function () {
+        updateSlidePosition();
+    });
+
+    // Llamar a la función al inicio para ajustar la posición
+    updateSlidePosition();
 });
