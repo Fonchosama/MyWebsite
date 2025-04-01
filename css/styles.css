@@ -15,24 +15,24 @@
 /* index.css */
 
 .profile {
-  max-width:1000px;
-  margin:  auto;
+  max-width: 100%;
+  margin: auto;
   display: flex;
-  align-items:center ;
-  flex-direction:row-reverse;
-  margin-top: 100px;
+  flex-direction: column; /* Asegura que los elementos se apilen en pantallas pequeñas */
   justify-content: center;
+  margin-top: 50px; /* Reducimos el margen superior en pantallas pequeñas */
 }
 
 .profile__portrait-element--image {
   border-radius: 50%;
-  width: 350px;
-  align-content: center;
-  margin-left: 50px;
+  width: 70%;
+  height: auto;
+  margin-left: 0;
 }
 
 .profile__text-element {
-  font-size: 22px;
+  font-size: 18px; /* Reducimos el tamaño del texto en pantallas pequeñas */
+  text-align: center;
 }
 
 /* about.css */
