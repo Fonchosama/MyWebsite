@@ -357,8 +357,7 @@ button,
 }
 
 .profile__portrait-element--image {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 0px;
 }
 .profile__text-elemet-title{
   text-align: center;
@@ -624,7 +623,7 @@ input[type="submit"] {
 
 
 
-  @media all and (min-width: 501px)  {
+  @media all and (min-width: 501px) and (max-width: 750px)  {
     /* general css */ 
   
     .page-header {
@@ -924,3 +923,9 @@ input[type="submit"] {
   }
 
 
+
+@media all and (max-width: 750px) {
+
+
+
+}
