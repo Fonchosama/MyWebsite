@@ -103,7 +103,7 @@
 }
 
 .toggle-button {
-  background: #fda085;
+  background: #eec9bf;
   border: 3px solid #b0853b;
   padding: 10px 15px;
   font-size: 30px;
@@ -127,23 +127,23 @@
   display: flex;
  justify-content: flex-start;
  align-items: center;
-}
+ align-content: center;
+ margin-left: 50px;
+ }
 
 .work__div {
   display:flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 90px;
  }
 
 .work__div--title {
-  font-size: 45px;
+  font-size: 60px;
+  text-align: center;
+  margin-top: -20px;
 }
 
 .work__div--image{
-
+margin-top: 20px;
   height: 300px;
   border-radius: 15%;
 
@@ -151,8 +151,9 @@
 .work__div--description{
 text-align: center;
 font-size: 30px;
-padding-left: 90px;
-padding-right: 90px; 
+margin-top: 60px;
+padding-left: 50px;
+padding-right: 50px; 
 }
 
 
@@ -161,13 +162,14 @@ padding-right: 90px;
 .contact-me {
   display: flex;
   align-items: center;
-  max-width: 900px;
+  width: 1000px;
+  height: 700px;
   margin: 0 auto;
   padding: 20px;
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-  margin-top: 80px;
+
 }
 
 .contact-left {
@@ -186,12 +188,12 @@ display: flex;
   font-size: 1.2rem;
   align-items: center;
   flex-direction: column;
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
 .contact-right-image{
   border-radius: 60%;
-  height: 350px;
+  height: 500px;
   align-content: center;
   justify-content: left;
 
@@ -266,16 +268,12 @@ button,
   font-family: inherit;
   background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
-  text-decoration: none;
   padding: 10px;
   border-radius: 115px;
   border-bottom: var(--border);
   font-weight: bold;
   margin-left: 15px;
-  transition: opacity 0.2s;
 }
-
-
 
 .page-header {
   display: flex;
@@ -320,7 +318,7 @@ button,
 @media all and (max-width: 500px) {
   .page-header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
