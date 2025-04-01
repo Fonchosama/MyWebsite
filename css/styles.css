@@ -15,24 +15,24 @@
 /* index.css */
 
 .profile {
-  max-width: 100%;
-  margin: auto;
+  max-width:1000px;
+  margin:  auto;
   display: flex;
-  flex-direction: column; /* Asegura que los elementos se apilen en pantallas pequeñas */
+  align-items:center ;
+  flex-direction:row-reverse;
+  margin-top: 100px;
   justify-content: center;
-  margin-top: 50px; /* Reducimos el margen superior en pantallas pequeñas */
 }
 
 .profile__portrait-element--image {
   border-radius: 50%;
-  width: 70%;
-  height: auto;
-  margin-left: 0;
+  width: 350px;
+  align-content: center;
+  margin-left: 50px;
 }
 
 .profile__text-element {
-  font-size: 18px; /* Reducimos el tamaño del texto en pantallas pequeñas */
-  text-align: center;
+  font-size: 22px;
 }
 
 /* about.css */
@@ -42,7 +42,7 @@
   margin: auto;
   display: flex;
   flex-direction:row;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-left: 20px;
 }
 
@@ -52,7 +52,7 @@
   flex-direction: column;
   margin-left: 100px;
   margin-bottom: 10px ;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .toggle-button{
@@ -73,14 +73,14 @@
   display:flex;
   justify-content: center;
   flex-direction: column;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #socials{
   display:flex;
   justify-content: center;
   flex-direction: column;
-  font-size: 20px;
+  font-size: 25px;
   
 }
 
@@ -99,13 +99,14 @@
   align-content: center;
   justify-content: left;
   margin-left: 50px;
+  margin-top: 80px;
 }
 
 .toggle-button {
   background: #fda085;
   border: 3px solid #b0853b;
   padding: 10px 15px;
-  font-size: 25px;
+  font-size: 30px;
   color: #5a3e2b;
   border-radius: 12px;
   box-shadow: 4px 4px 0px #b0853b;
