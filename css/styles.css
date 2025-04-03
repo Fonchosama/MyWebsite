@@ -512,9 +512,9 @@ margin: 0px;
   }
   
   .work__div--image{
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right:  00px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
     height: 250px;
     border-radius: 15%;
   
