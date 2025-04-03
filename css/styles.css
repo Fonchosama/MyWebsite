@@ -530,6 +530,7 @@ margin: 0px;
 /* contact.css */
 
 .contact-me {
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   align-items:end;
