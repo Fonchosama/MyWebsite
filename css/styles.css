@@ -931,7 +931,7 @@ input[type="submit"] {
 
   }
 
-  @media all and (min-width: 751px) and (max-width: 1250px) {
+  @media all and (min-width: 751px) and (max-width: 1750px) {
         /* general css */ 
     
       .page-header {
